@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Framework-Restlet">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="rowset.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/database/rowset.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.16.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/log4j/log4j-1.2.16.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.apache.commons.logging.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/logging/org.apache.commons.logging.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-1.4.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/fileUpload/commons-io-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.restlet.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.restlet.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.beans.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.springframework.beans.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.springframework.web.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.context.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.springframework.context.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.restlet.ext.spring_2.5.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.restlet.ext.spring_2.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqljdbc.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/sql/sqljdbc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/fileUpload/commons-fileupload-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.core.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/spring/org.springframework.core.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.6-bin.jar" deploy-path="/" handle="module:/classpath/lib/Core-Libraries/mysql/mysql-connector-java-5.1.6-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

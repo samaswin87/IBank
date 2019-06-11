@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+<!DOCTYPE beans PUBLIC "-//Spring//DTD Bean//EN" "http://www.springframework.org/dtd/spring-beans.dtd" >
+<beans >
+-->
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+	
+	<util:properties id="connection.properties" location="classpath:database.properties"/>
+
+	<bean id="connection.provider" class="com.intec.ibank.database.connection.DriverConnectionProvider">
+		<property name="properties" ref="connection.properties"/>
+	</bean>
+
+	<bean id="connection.queryGenerator" class="com.intec.ibank.database.query.mysql.MysqlQueryGenerator" />
+	
+	<bean id="database.connector" class="com.intec.ibank.database.IBankDatabaseConnector">
+		<constructor-arg ref ="connection.provider" />
+		<constructor-arg ref ="connection.queryGenerator" />
+	</bean>
+	 
+</beans>

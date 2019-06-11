@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.restlet.ext.spring_2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.restlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.springframework.beans.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.springframework.context.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.springframework.core.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/spring/org.springframework.web.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/logging/org.apache.commons.logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/mysql/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/sql/sqljdbc.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/fileUpload/commons-fileupload-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/fileUpload/commons-io-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/log4j/log4j-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Core-Libraries/database/rowset.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
